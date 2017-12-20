@@ -36,6 +36,14 @@
             left: 17px;
         }
         
+        .silex-id-1513636795253-6 {
+            height: 400px;
+            width: 781px;
+            background-color: rgba(210, 255, 102, 1);
+            top: 10px;
+            left: 360px;
+        }
+        
         .silex-id-1513636526368-5 {
             width: 912px;
             background-color: rgb(255, 255, 255);
@@ -46,7 +54,7 @@
     </style>
     <title></title>
     <script type="text/javascript" class="silex-json-styles">
-        [{"desktop":{"body-initial":{"background-color":"rgba(255,255,255,1)"},"silex-id-1474394621032-2":{"min-height":"419px","background-color":"transparent","width":"1200px","top":"15px","left":"100px"},"silex-id-1474394605264-1":{"min-height":"100px","width":"100px","top":"100px","left":"100px"},"silex-id-1474394605263-0":{"min-height":"100px","background-color":"transparent"},"silex-id-1478366444112-0":{"min-height":"100px","background-color":"transparent","width":"1200px","top":"15px","left":"100px"},"silex-id-1478366450713-2":{"min-height":"100px","background-color":"transparent","width":"1200px"},"silex-id-1513634984641-0":{"width":"460px","min-height":"366px","top":"19px","left":"-89px"},"silex-id-1513636332378-3":{"width":"359px","min-height":"276px","top":"24px","left":"16px"},"silex-id-1513636458518-4":{"width":"1644px","background-color":"rgb(255, 255, 255)","min-height":"224px","top":"314px","left":"17px"},"silex-id-1513636526368-5":{"width":"100px","background-color":"rgb(255, 255, 255)","min-height":"100px","top":"24px","left":"382px"}},"mobile":{},"componentData":{}}]
+        [{"desktop":{"body-initial":{"background-color":"rgba(255,255,255,1)"},"silex-id-1474394621032-2":{"min-height":"419px","background-color":"transparent","width":"1200px","top":"15px","left":"100px"},"silex-id-1474394605264-1":{"min-height":"100px","width":"100px","top":"100px","left":"100px"},"silex-id-1474394605263-0":{"min-height":"100px","background-color":"transparent"},"silex-id-1478366444112-0":{"min-height":"100px","background-color":"transparent","width":"1200px","top":"15px","left":"100px"},"silex-id-1478366450713-2":{"min-height":"100px","background-color":"transparent","width":"1200px"},"silex-id-1513634984641-0":{"width":"460px","min-height":"366px","top":"19px","left":"-89px"},"silex-id-1513636332378-3":{"width":"359px","min-height":"276px","top":"24px","left":"16px"},"silex-id-1513636458518-4":{"width":"1644px","background-color":"rgb(255, 255, 255)","min-height":"224px","top":"314px","left":"17px"},"silex-id-1513636526368-5":{"width":"912px","background-color":"rgb(255, 255, 255)","min-height":"100px","top":"24px","left":"382px"},"silex-id-1513636795253-6":{"height":"400px","width":"781px","background-color":"transparent","top":"10px","left":"360px"}},"mobile":{},"componentData":{"silex-id-1513636795253-6":{"name":"slideshow1","templateName":"slideshow"}}}]
     </script>
 
 
@@ -73,6 +81,8 @@
             display: inherit;
         }
     </style>
+    <script src="/static/2.7/unslider/unslider-min.js" data-silex-static="" data-dependency=""></script>
+    <link rel="stylesheet" href="/static/2.7/unslider/unslider.css" data-silex-static="" data-dependency="">
     <!-- Silex HEAD tag do not remove -->
     <!-- End of Silex HEAD tag do not remove -->
 </head>
@@ -116,7 +126,162 @@
 
 
     <div data-silex-type="image" class="editable-style silex-id-1513636332378-3 image-element" data-silex-id="silex-id-1513636332378-3" style=""><img src="amish_logo.png" class="silex-element-content"></div>
-    <div data-silex-type="container" class="editable-style silex-id-1513636458518-4 container-element" data-silex-id="silex-id-1513636458518-4" style=""></div>
+    <div data-silex-type="container" class="editable-style silex-id-1513636458518-4 container-element" data-silex-id="silex-id-1513636458518-4" style="">
+        <div data-silex-type="html" class="editable-style silex-id-1513636795253-6 html-element silex-component silex-component-slideshow silex-use-height-not-minheight" data-silex-id="silex-id-1513636795253-6" style="">
+            <div class="silex-element-content">
+                <div id="parent_1513636795822_421">
+                    <!-- preview -->
+                    <div class="prodotype-preview">
+
+                    </div>
+                    <div id="id_1513636795822_421">
+                        <!-- runtime -->
+                        <!-- the whole slideshow -->
+                        <ul class="prodotype-runtime">
+
+                        </ul>
+                    </div>
+                </div>
+                <style type="text/css">
+                    /* *********************** */
+                    /* "Preview" label always on top of the slideshow in silex */
+                    
+                    #parent_1513636795822_421 .prodotype-preview {
+                        list-style-type: none;
+                        margin: 0;
+                        padding: 0;
+                    }
+                    
+                    #parent_1513636795822_421 .prodotype-preview .preview-text {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                    
+                    #parent_1513636795822_421 .prodotype-preview .preview-text p {
+                        z-index: 1;
+                        background-color: black;
+                        color: white;
+                    }
+                    /* *********************** */
+                    /* styles for each slide */
+                    /* *********************** */
+                    /* styles for all the slides */
+                    
+                    #parent_1513636795822_421 .slide-image {
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-position: 50%;
+                        align-items: flex-end;
+                        justify-content: center;
+                    }
+                    
+                    #parent_1513636795822_421 figcaption {
+                        padding: 50px;
+                        color: white;
+                        background-color: rgba(0, 0, 0, 0.5);
+                        width: 100%;
+                        text-align: center;
+                    }
+                    /* *********************** */
+                    /* UI style */
+                    
+                    #parent_1513636795822_421 .unslider-nav {
+                        position: absolute;
+                        bottom: 10px;
+                        left: 0;
+                        right: 0;
+                        top: auto;
+                        margin: 0;
+                    }
+                    
+                    #parent_1513636795822_421 .unslider-nav ol {
+                        text-align: center;
+                    }
+                    
+                    #parent_1513636795822_421 .unslider-nav ol li.unslider-active {
+                        background: #fff;
+                        cursor: default;
+                        opacity: 1;
+                    }
+                    
+                    #parent_1513636795822_421 .unslider-nav ol li {
+                        display: inline-block;
+                        float: none;
+                        width: 6px;
+                        height: 6px;
+                        margin: 0 4px;
+                        padding: 3px;
+                        background: transparent;
+                        border-radius: 10px;
+                        overflow: hidden;
+                        text-indent: -999em;
+                        border: 2px solid #fff;
+                        cursor: pointer;
+                        opacity: .4;
+                    }
+                    
+                    #parent_1513636795822_421 .unslider-arrow {
+                        display: block;
+                        width: 32px;
+                        height: 32px;
+                        top: 50%;
+                        right: 16px;
+                        left: auto;
+                        margin-top: -16px;
+                        overflow: hidden;
+                        background: rgba(0, 0, 0, .2) no-repeat 50% 50%;
+                        background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAQCAQAAABuQZ3IAAAAi0lEQVR4AU3OISBEQQBAwS0AACS9NxqQgCZpkiYBVddFvWhAAUABAPQCAGC4g/0vTnrBqCfDIZl70J+kMUBPpEwT4FNXxBxz4F1HxHyr4EVTxBLb4EFNxEon4CJSlVNw9AcV9sC16h8osgke1P1ArgXwouVvdQq86ww/GQefusNf7kBviBlxpT8k+gL/Wox4r1d4MwAAAABJRU5ErkJggg==');
+                        background-size: 7px 11px;
+                        border-radius: 32px;
+                        text-indent: -999em;
+                        opacity: .6;
+                        transition: opacity .2s;
+                    }
+                    
+                    #parent_1513636795822_421 .unslider-arrow.prev {
+                        left: 16px;
+                        right: auto;
+                        -ms-transform: rotate(-180deg);
+                        transform: rotate(-180deg);
+                    }
+                    /* *********************** */
+                </style>
+                <script type="text/javascript">
+                    (function() {
+                        function initUnslider() {
+                          // do not start in the editor (it would mess with the markup)
+                          if(!$('body').hasClass('silex-runtime')) return;
+                    
+                          var slider = $('#id_1513636795822_421').unslider({
+                            'autoplay': false,
+                            'speed': 750,
+                            'delay': 3000,
+                            'index': 0,
+                            'nav': true,
+                            'animation': 'horizontal',
+                            'arrows': true
+                          });
+                          //  Listen to slide changes
+                          
+                          // apply element height to the images
+                          var silexElement = $('#id_1513636795822_421').closest('.editable-style');
+                          var elementMinHeight = silexElement.css('height');
+                          var elementWidth = silexElement.css('width');
+                          $('#id_1513636795822_421 li .slide-image').css({
+                            'height': elementMinHeight
+                          });
+                          
+                      }
+                        initUnslider();
+                      })();
+                </script>
+            </div>
+        </div>
+    </div>
     <div data-silex-type="container" class="editable-style silex-id-1513636526368-5 container-element" data-silex-id="silex-id-1513636526368-5" style=""></div>
 </body>
 
