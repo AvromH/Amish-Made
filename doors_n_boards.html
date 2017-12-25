@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!-- generator meta tag -->
+    <!-- leave this for stats and Silex version check -->
+    <meta name="generator" content="Silex v2.2.7">
+    <!-- End of generator meta tag -->
+    <script type="text/javascript" src="//editor.silex.me/static/2.7/jquery.js" data-silex-static=""></script>
+    <script type="text/javascript" src="//editor.silex.me/static/2.7/jquery-ui.js" data-silex-static=""></script>
+    <script type="text/javascript" src="//editor.silex.me/static/2.7/pageable.js" data-silex-static=""></script>
+    <script type="text/javascript" src="//editor.silex.me/static/2.7/front-end.js" data-silex-static=""></script>
+    <link rel="stylesheet" href="//editor.silex.me/static/2.7/normalize.css" data-silex-static="">
+    <link rel="stylesheet" href="//editor.silex.me/static/2.7/front-end.css" data-silex-static="">
+
+    <style type="text/css" class="silex-style">
+        /* Add a black background color to the top navigation */
+        
+        .topnav {
+            //    background-color: #333;
+            overflow: hidden;
+        }
+        /* Style the links inside the navigation bar */
+        
+        .topnav a {
+            float: left;
+            color: #ddd;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 15px;
+        }
+        /* Change the color of links on hover */
+        
+        .topnav a:hover {
+            background-color: #ddd;
+            color: blue;
+        }
+        /* Add a color to the active/current link */
+        
+        .topnav a.active {
+            background-color: #ddd;
+            color: black;
+        }
+    </style>
+    <script type="text/javascript" class="silex-script"></script>
+    <style class="silex-inline-styles" type="text/css">
+        .body-initial {
+            background-color: rgba(255, 255, 255, 1);
+        }
+        
+        .silex-id-1513636526368-5 {
+            width: 1118px;
+            background-color: rgb(255, 255, 255);
+            min-height: 84px;
+            top: 16px;
+            left: 389px;
+        }
+        
+        .silex-id-1514136927841-0 {
+            width: 1106px;
+            min-height: 59px;
+            top: 14px;
+            left: 7px;
+        }
+        
+        .silex-id-1513765163530-0 {
+            width: 982px;
+            background-color: transparent;
+            min-height: 47px;
+            top: 20px;
+            left: 88px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1513765163530-0 {
+                left: 23px;
+                top: 2131px;
+            }
+        }
+        
+        .silex-id-1513636458518-4 {
+            width: 1504px;
+            background-color: rgb(255, 255, 255);
+            min-height: 365px;
+            top: 314px;
+            left: 17px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1513636458518-4 {
+                top: 350px;
+                left: 12px;
+                width: 439px;
+                min-height: 365px;
+            }
+        }
+        
+        .silex-id-1513633993945-8 {
+            width: 1481px;
+            min-height: 313px;
+            top: 21px;
+            left: 9px;
+        }
+        
+        .silex-id-1513634337505-9 {
+            width: 682px;
+            min-height: 60px;
+            top: 132px;
+            left: 486px;
+        }
+        
+        .silex-id-1513634533704-10 {
+            width: 774px;
+            min-height: 47px;
+            top: 194px;
+            left: 515px;
+        }
+        
+        .silex-id-1513634734667-11 {
+            width: 227px;
+            min-height: 70px;
+            top: 657px;
+            left: 74px;
+        }
+        
+        .silex-id-1513635158364-12 {
+            width: 205px;
+            min-height: 70px;
+            top: 657px;
+            left: 405px;
+        }
+        
+        .silex-id-1513635202045-15 {
+            width: 168px;
+            min-height: 44px;
+            top: 674px;
+            left: 812px;
+        }
+        
+        .silex-id-1513635178873-14 {
+            width: 230px;
+            min-height: 70px;
+            top: 658px;
+            left: 1270px;
+        }
+        
+        .silex-id-1513635491715-16 {
+            width: 1493px;
+            background-color: rgb(255, 255, 255);
+            min-height: 754px;
+            top: 737px;
+            left: 25px;
+        }
+        
+        .silex-id-1513635551068-17 {
+            width: 1294px;
+            min-height: 71px;
+            top: 37px;
+            left: 186px;
+        }
+        
+        .silex-id-1513636045353-20 {
+            width: 1309px;
+            min-height: 49px;
+            top: 101px;
+            left: 188px;
+        }
+        
+        .silex-id-1513635640408-19 {
+            width: 461px;
+            min-height: 90px;
+            top: 419px;
+            left: 532px;
+        }
+        
+        .silex-id-1513635628280-18 {
+            width: 1003px;
+            min-height: 204px;
+            top: 193px;
+            left: 276px;
+        }
+        
+        .silex-id-1513636332378-3 {
+            width: 381px;
+            min-height: 290px;
+            top: 28px;
+            left: 14px;
+        }
+    </style>
+    <title></title>
+    <script type="text/javascript" class="silex-json-styles">
+        [{"desktop":{"body-initial":{"background-color":"rgba(255,255,255,1)"},"silex-id-1474394621032-2":{"min-height":"419px","background-color":"transparent","width":"1200px","top":"15px","left":"100px"},"silex-id-1474394605264-1":{"min-height":"100px","width":"100px","top":"100px","left":"100px"},"silex-id-1474394605263-0":{"min-height":"100px","background-color":"transparent"},"silex-id-1478366444112-0":{"min-height":"100px","background-color":"transparent","width":"1200px","top":"15px","left":"100px"},"silex-id-1478366450713-2":{"min-height":"100px","background-color":"transparent","width":"1200px"},"silex-id-1513634984641-0":{"width":"460px","min-height":"366px","top":"19px","left":"-89px"},"silex-id-1513636332378-3":{"width":"381px","min-height":"290px","top":"28px","left":"14px"},"silex-id-1513636458518-4":{"width":"1504px","background-color":"rgb(255, 255, 255)","min-height":"365px","top":"314px","left":"17px"},"silex-id-1513636526368-5":{"width":"1118px","background-color":"rgb(255, 255, 255)","min-height":"84px","top":"16px","left":"389px"},"silex-id-1513633993945-8":{"width":"1481px","min-height":"313px","top":"21px","left":"9px"},"silex-id-1513634337505-9":{"width":"682px","min-height":"60px","top":"132px","left":"486px"},"silex-id-1513634533704-10":{"width":"774px","min-height":"47px","top":"194px","left":"515px"},"silex-id-1513634734667-11":{"width":"227px","min-height":"70px","top":"657px","left":"74px"},"silex-id-1513635158364-12":{"width":"205px","min-height":"70px","top":"657px","left":"405px"},"silex-id-1513635178873-14":{"width":"230px","min-height":"70px","top":"658px","left":"1270px"},"silex-id-1513635202045-15":{"width":"168px","min-height":"44px","top":"674px","left":"812px"},"silex-id-1513635491715-16":{"width":"1493px","background-color":"rgb(255, 255, 255)","min-height":"754px","top":"737px","left":"25px"},"silex-id-1513635551068-17":{"width":"1294px","min-height":"71px","top":"37px","left":"186px"},"silex-id-1513635628280-18":{"width":"1003px","min-height":"204px","top":"193px","left":"276px"},"silex-id-1513635640408-19":{"width":"461px","min-height":"90px","top":"419px","left":"532px"},"silex-id-1513636045353-20":{"width":"1309px","min-height":"49px","top":"101px","left":"188px"},"silex-id-1513765163530-0":{"width":"982px","background-color":"transparent","min-height":"47px","top":"20px","left":"88px","opacity":""},"silex-id-1514136927841-0":{"width":"1106px","min-height":"59px","top":"14px","left":"7px"}},"mobile":{"silex-id-1513636458518-4":{"top":"350px","left":"12px","width":"439px","min-height":"365px"},"silex-id-1513765163530-0":{"left":"23px","top":"2131px"}},"componentData":{}}]
+    </script>
+
+
+
+
+
+
+    <meta name="website-width" content="1200">
+    <style type="text/css" class="silex-style-settings">
+        .website-width {
+            width: 1200px;
+        }
+    </style>
+
+
+
+
+
+
+
+
+
+    <script src="//editor.silex.me/static/2.7/unslider/unslider-min.js" data-silex-static="" data-dependency=""></script>
+    <link rel="stylesheet" href="//editor.silex.me/static/2.7/unslider/unslider.css" data-silex-static="" data-dependency="">
+
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2.2" data-silex-viewport="">
+
+    <meta name="twitter:title" content="OLDE WOOD CREATIONS">
+    <meta name="og:title" content="OLDE WOOD CREATIONS">
+
+
+
+
+    <meta name="twitter:card" content="summary">
+    <style id="current-page-style">
+        .page-kitchen_n_bath {
+            display: inherit;
+        }
+    </style>
+    <!-- Silex HEAD tag do not remove -->
+    <!-- End of Silex HEAD tag do not remove -->
+</head>
+
+<body data-silex-id="body-initial" class="body-initial enable-mobile silex-runtime" data-silex-type="container">
+    <div class="silex-pages">
+        <div data-silex-type="image" class="editable-style silex-id-hamburger-menu image-element menu-button prevent-draggable prevent-resizable" data-silex-id="silex-id-hamburger-menu">
+            <img alt="open mobile menu" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAoCAYAAAC8cqlMAAAB5UlEQVR42u2ZPWvCUBSGM+UfFO3e3dLu/QN+oKj4EUXRQREEJYgoiCAu6qCogyDo7iJ21UUaKqEgCC4iiEMGB3UVgsnpTWj/wfVK2nvhGbKEPJyT996TMMzPGg6H5mKx+GgkyuWyeTQasb8OTDwef4tEIp8+n+/LYIjJZJJHQiwzm81M6OLDarWqNpsNjEYgEJCy2ewT0+/3TagighElNFAnQT6ft1ARKkJFqMgfFvF4PFpuEwFtdrcRqVarIIoirFYrIiyXSxiPx+B2u/GJBINBuF6vQHopigK1Wg2fCMdxcLlciIuoqgqNRgOfiN1uB3Qwg91uB8fjkQiHwwEmkwne1qLxS0VuKKJle71eh06nQ4Rmswk8z+MVcTqdsNlsQJZlotF7Pp8hk8ngE4lGo/qN7xG/vV4Pb0Xm8zlxkdPpBGgMx/+yJxIJKBQKRMjlcuBwOGhq/Q+RcDgMsViMCFrAuFwu/CKDwQC22y1IkkSE/X4PgiDo+xc2Ea0S9zjGa/Hb7Xbxifj9fj0K7yFSqVTwtlY6nYbpdKpPiSRYLBbQarX0PYymFhWhIlSEilCRW6GdyUqlkoVZr9dsKpXiOY6TtW+7BkNBz/7ebrcf9L+6Xq+XRYPMMyrTq5EIhUIvaAjTJb4BBNQ2yhnth0wAAAAASUVORK5CYII="
+                class="silex-element-content">
+        </div>
+
+        <a id="page-kitchen_n_bath" data-silex-type="page" class="page-element page-link-active">Kitchen_n_bath</a></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div data-silex-type="container" class="editable-style silex-id-1513636526368-5 container-element" data-silex-id="silex-id-1513636526368-5" style="">
+
+
+
+        <div data-silex-type="image" class="editable-style silex-id-1514136927841-0 image-element" data-silex-id="silex-id-1514136927841-0" style=""><img src="board_horiz.png" class="silex-element-content"></div>
+        <div data-silex-type="html" class="editable-style silex-id-1513765163530-0 html-element" data-silex-id="silex-id-1513765163530-0" style="">
+            <div class="silex-element-content">
+                <div class="topnav" id="myTopnav">
+                    <a class="active" href="#home">Kitchen &amp; Bathroom</a>
+                    <a href="#DnB">Doors &amp; Boards</a>
+                    <a href="#flooring">Antique Flooring</a>
+                    <a href="#rustic">Rustic Board &amp; Beam</a>
+                    <a href="#heirloom">Heirloom Furniture</a>
+                    <a href="#about">About us</a>
+                    <a href="#contact">Contact us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-silex-type="container" class="editable-style silex-id-1513636458518-4 container-element" data-silex-id="silex-id-1513636458518-4" style="">
+        <div data-silex-type="image" class="editable-style silex-id-1513633993945-8 image-element" data-silex-id="silex-id-1513633993945-8" style=""><img src="slide1.png" class="silex-element-content"></div>
+    </div>
+
+    <div data-silex-type="text" class="editable-style silex-id-1513634337505-9 text-element" data-silex-id="silex-id-1513634337505-9" style="">
+        <div class="silex-element-content normal">
+            <font size="6">Product Page:&nbsp; Kitchen / Bathroom Cabinets</font><br></div>
+    </div>
+    <div data-silex-type="text" class="editable-style silex-id-1513634533704-10 text-element" data-silex-id="silex-id-1513634533704-10" style="">
+        <div class="silex-element-content normal"><b><i><font size="6"><span style="font-family: georgia, serif;">We take olde wood and create masterpieces</span></font></i><br></b></div>
+    </div>
+    <div data-silex-type="text" class="editable-style silex-id-1513634734667-11 text-element" data-silex-id="silex-id-1513634734667-11" style="">
+        <div class="silex-element-content normal">
+            <p><span style="font-family: georgia, serif;"><font size="6"><b><i><font class="normal">We listen</font></i></b></font></span></p>
+        </div>
+    </div>
+    <div data-silex-type="text" class="editable-style text-element silex-id-1513635158364-12" data-silex-id="silex-id-1513635158364-12" style="">
+        <div class="silex-element-content normal">
+            <p><span style="font-family: georgia, serif;"><font size="6"><b><i><font class="normal">We prepare</font></i></b></font></span></p>
+        </div>
+    </div>
+    <div data-silex-type="text" class="editable-style text-element silex-id-1513635202045-15" data-silex-id="silex-id-1513635202045-15" style="">
+        <div class="silex-element-content normal"><b><i><font size="6"><span style="font-family: georgia, serif;">We build</span></font></i><br></b></div>
+    </div>
+    <div data-silex-type="text" class="editable-style text-element silex-id-1513635178873-14" data-silex-id="silex-id-1513635178873-14" style="">
+        <div class="silex-element-content normal">
+            <p><span style="font-family: georgia, serif;"><font size="6"><b><i><font class="normal">We deliver</font></i></b></font></span></p>
+        </div>
+    </div>
+    <div data-silex-type="container" class="editable-style silex-id-1513635491715-16 container-element" data-silex-id="silex-id-1513635491715-16" style="">
+        <div data-silex-type="text" class="editable-style silex-id-1513635551068-17 text-element" data-silex-id="silex-id-1513635551068-17" style="">
+            <div class="silex-element-content normal">
+                <p class="normal">
+                    <font size="6"><b><span style="font-family: georgia, serif;">*Individual Pieces&nbsp;&nbsp; <span>&nbsp;&nbsp;&nbsp; *one of a kind<span>&nbsp;&nbsp;&nbsp; </span>*matching a piece<span>&nbsp;&nbsp;&nbsp; </span>*Custom pieces</span></span></b></font><br></p>
+            </div>
+        </div>
+        <div data-silex-type="text" class="editable-style silex-id-1513636045353-20 text-element" data-silex-id="silex-id-1513636045353-20" style="">
+            <div class="silex-element-content normal">
+                <font size="6"><b><span style="font-family: georgia, serif;">*Highest Quality<span>&nbsp;&nbsp; &nbsp;</span><span>&nbsp;&nbsp; &nbsp;&nbsp; </span>*Amish made<span>&nbsp;&nbsp;&nbsp;&nbsp; </span>*Highly Skilled<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>*Any style</span></b></font>
+            </div>
+        </div>
+        <div data-silex-type="text" class="editable-style text-element silex-id-1513635640408-19" data-silex-id="silex-id-1513635640408-19" style="">
+            <div class="silex-element-content normal">
+                <p class="normal">
+                    <font size="6"><span style="font-family: georgia, serif;"><span style="font-family: arial, sans-serif;">On time Delivery - Everytime!</span></span><b><span style="font-family: georgia, serif;"><br></span></b></font>
+                </p><br></div>
+        </div>
+        <div data-silex-type="text" class="editable-style text-element silex-id-1513635628280-18" data-silex-id="silex-id-1513635628280-18" style="">
+            <div class="silex-element-content normal">
+                <p class="normal"><b><font size="5"><span style="font-family: georgia, serif;"><font size="6">We have the tooling to handle any request from Period Style, Federal, Victorian, and Colonial.&nbsp; We can produce to match the Olde Wood and give it life again.&nbsp; Cabinets made from reclaimed antique wood.&nbsp; Our cabinets are made to last. </font><br></span></font></b></p><br></div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div data-silex-type="image" class="editable-style silex-id-1513636332378-3 image-element" data-silex-id="silex-id-1513636332378-3" style=""><img src="amish_logo.png" class="silex-element-content"></div>
+
+
+</body>
+
+</html>
